@@ -1,6 +1,6 @@
 # auto-green
 
-[![Build Status](https://github.com/justjavac/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/auto-green/actions)
+[![Build Status](https://github.com/zhuweiyou/auto-green/workflows/ci/badge.svg)](https://github.com/justjavac/auto-green/actions)
 
 自动保持 GitHub 提交状态常绿。
 
@@ -16,7 +16,7 @@
 
 - 点右上角 **Fork** 按钮复制本 GitHub 仓库
 - 在自己的项目中，点上方 **Actions** 选项卡进入项目 GitHub Actions 页面, 点击绿色按钮 “**I understand my workflows, go ahead and enable them**” 开启自动提交功能
-- (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
+- (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/zhuweiyou/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
 
 计划任务语法有 5 个字段，中间用空格分隔，每个字段代表一个时间单位。
 
@@ -43,6 +43,3 @@
 
 **注**：由于 GitHub Actions 的限制，如果设置为 `* * * * *` 实际的执行频率为每 5 分执行一次。
 
-## License
-
-[auto-green](https://github.com/justjavac/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
